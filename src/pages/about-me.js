@@ -1,7 +1,6 @@
 import React from 'react'
 import { Waypoint } from 'react-waypoint'
 import Layout from '../components/layout'
-import pic01 from '../assets/images/pic01.jpg'
 import AboutMeNav from '../components/AboutMeNav'
 import biopic2021 from '../assets/images/aboutme/biopic2021.jpg'
 
