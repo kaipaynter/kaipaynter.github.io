@@ -10,7 +10,7 @@ const Header = props => (
       <img src={logo2} alt="" />
     </span>
     <h1>Welcome</h1>
-    <h2><strong>Hi, I'm Coach Kai: the solution-startegist for performers, artists, and creatives.</strong></h2>
+    <h2><strong>Hi, I'm Coach Kai: the solution-strategist for performers, artists, and creatives.</strong></h2>
   </header>
 )
 
