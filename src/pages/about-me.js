@@ -2,7 +2,7 @@ import React from 'react'
 import { Waypoint } from 'react-waypoint'
 import Layout from '../components/layout'
 import AboutMeNav from '../components/AboutMeNav'
-import biopic2021 from '../assets/images/aboutme/biopic2021.jpg'
+import biopic2021 from '../assets/images/aboutme/biopicfullcropped.jpg'
 
 class AboutMe extends React.Component {
   constructor(props) {
