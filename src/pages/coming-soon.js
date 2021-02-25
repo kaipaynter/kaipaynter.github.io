@@ -24,7 +24,10 @@ class ComingSoon extends React.Component {
                   <h2>Notice</h2>
                 </header>
                 <p>
-                  My website is currently under construction. Thank you for your patience. Please get in touch with me via email or my social media.
+                  My website is currently under construction. Thank you for your
+                  patience.
+                  <br />
+                  Please get in touch with me via email or my social media.
                 </p>
               </div>
               <span className="image2">
