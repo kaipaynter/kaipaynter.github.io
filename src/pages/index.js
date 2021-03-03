@@ -5,18 +5,17 @@ import { Waypoint } from 'react-waypoint'
 
 //Image import start
 //About Me
-import landingPage from '../assets/images/landingPage.jpg'
-import biopicfull2021 from '../assets/images/landing/biopicfull2021.jpg'
+import biopicfull2021 from '../assets/images/landing/biopicfullcropped.jpg'
 //Services
 import career from '../assets/images/landing/career.jpg'
-import coaching2 from '../assets/images/landing/coaching2.jpg'
-import coaching4 from '../assets/images/landing/coaching4.jpg'
-import fame from '../assets/images/landing/fame.jpg'
-import unclesam from '../assets/images/landing/unclesam.png'
+import c from '../assets/images/landing/c.jpeg'
+import yellowtel from '../assets/images/landing/yellowtel.png'
+import secrets from '../assets/images/landing/secrets.png'
+import american from '../assets/images/landing/american.jpg'
 //What's on
 import gracegealey from '../assets/images/whatson/gracegealey.jpg'
 import img9605 from '../assets/images/whatson/img9605.jpg'
-import instagram from '../assets/images/whatson/instagram.jpg'
+import instagram from '../assets/images/landing/instagramflag.jpg'
 
 //Image import end
 
@@ -62,43 +61,31 @@ class Index extends React.Component {
                 </header>
                 <p>
                   If you came to my page, my guess is that you need some help?
-                  Well, you’re in luck. I’m pretty good with people and I’ve
-                  done a lot of things.
+                  <br />
+                  Well, you’re in luck. I’m pretty good with people and I’ve done a lot of things.
                 </p>
                 <ul className="actions">
                   <li>
                     <Link to="/about-me" className="button">
-                      Learn More
+                      <strong>Learn More</strong>
                     </Link>
                   </li>
                 </ul>
               </div>
-              <span className="image2">
-                <img width="8rem" src={biopicfull2021} alt="" />
+              <span className="imageIndexPage">
+                <img src={biopicfull2021} alt="" />
               </span>
             </div>
           </section>
-
           <section id="services" className="main special">
             <header className="major">
               <h2>Services</h2>
             </header>
             <ul className="features">
+              
               <li>
                 <span className="image fit">
-                  <img src={career} alt="" />
-                </span>
-                <h3>Your Career</h3>
-                <p>
-                  At this time we are only working with existing clients and
-                  referrals. However, please submit an inquiry with a PDF/Wordx
-                  version of your resume and we will do our best to accommodate.
-                  Thank you for your understanding.
-                </p>
-              </li>
-              <li>
-                <span className="image fit">
-                  <img src={coaching4} alt="" />
+                  <img src={yellowtel} alt="" />
                 </span>
                 <h3>Coaching</h3>
                 <p>
@@ -110,41 +97,48 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image fit">
-                  <img src={unclesam} alt="" />
-                </span>
-                <h3>General American Accent</h3>
-                <p>
-                  Don’t wait for Pilot Season! You’ll be too late… Take
-                  advantage of your time during Covid19 and perfect your US
-                  self-tapes. With locally made American films and self-taping
-                  now the norm, it’s vital for all aspiring actors to have great
-                  American accents and great US self-tapes. This is a jam-packed
-                  intensive with American Voice & Acting Coach, Kai Paynter.
-                </p>
-              </li>
-              <li>
-                <span className="image fit">
-                  <img src={fame} alt="" />
-                </span>
-                <h3>Secrets of the Stars</h3>
-                <p>
-                  Have you ever wondered… WHY that actor got the role over you?
-                  Why THEM? Why not YOU? WHEN will it be you? WHAT do you have
-                  to do? This is a course made for the actor who is looking to
-                  GET auditions and BOOK jobs
-                </p>
-              </li>
-              <li>
-                <span className="image fit">
-                  <img src={coaching2} alt="" />
+                  <img src={c} alt="" />
                 </span>
                 <h3>Archetype Coaching</h3>
                 <p>
                   Archetypes are universal, inborn models of people, behaviors,
                   or personalities that play a role in influencing human
                   behavior. They were introduced by the Swiss psychiatrist Carl
-                  Jung, who suggested that these archetypes were archaic forms
-                  of innate human knowledge.
+                  Jung.
+                </p>
+              </li>
+              <li>
+                <span className="image fit">
+                  <img src={career} alt="" />
+                </span>
+                <h3>Your Career</h3>
+                <p>
+                  At this time we are only working with existing clients and
+                  referrals, however, please submit an inquiry and we will do
+                  our best to accommodate. Thank you for your understanding.
+                </p>
+              </li>
+              <li>
+                <span className="image fit">
+                  <img src={secrets} alt="" />
+                </span>
+                <h3>Secrets of the Stars</h3>
+                <p>
+                  Have you ever wondered… WHY that actor got the role over you?
+                  Why THEM? Why not YOU? WHEN will it be you? WHAT do you have
+                  to do?
+                </p>
+              </li>
+              <li>
+                <span className="image fit">
+                  <img src={american} alt="" />
+                </span>
+                <h3>General American Accent</h3>
+                <h3>for Self-tapes</h3>
+                <p>
+                  With locally made American films and self-taping now the norm,
+                  it’s vital to have great American
+                  accents and great US self-tapes.
                 </p>
               </li>
             </ul>
@@ -152,7 +146,7 @@ class Index extends React.Component {
               <ul className="actions">
                 <li>
                   <Link to="/services" className="button">
-                    Learn More
+                    <strong>Learn More</strong>
                   </Link>
                 </li>
               </ul>
@@ -169,14 +163,14 @@ class Index extends React.Component {
                   <img src={img9605} alt="" />
                 </span>
                 <h3>Client Showcase</h3>
-                <p>Check out featured client, Aria!</p>
+                <p>See what our clients are doing!</p>
               </li>
               <li>
                 <span className="image fit">
                   <img src={instagram} alt="" />
                 </span>
                 <h3>Conversation Thursdays</h3>
-                <p>Chat with LIVE with me every other Thursday!</p>
+                <p>Chat with me LIVE with me every other Thursday!</p>
               </li>
               <li>
                 <span className="image fit">
@@ -190,7 +184,7 @@ class Index extends React.Component {
               <ul className="actions">
                 <li>
                   <Link to="/whats-on" className="button">
-                    Learn More
+                    <strong>Learn More</strong>
                   </Link>
                 </li>
               </ul>
@@ -206,7 +200,7 @@ class Index extends React.Component {
               <ul className="actions">
                 <li>
                   <Link to="/contact" className="button">
-                    Get Started
+                    <strong>Get Started</strong>
                   </Link>
                 </li>
               </ul>
