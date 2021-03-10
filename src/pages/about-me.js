@@ -1,9 +1,8 @@
 import React from 'react'
 import { Waypoint } from 'react-waypoint'
 import Layout from '../components/layout'
-import pic01 from '../assets/images/pic01.jpg'
 import AboutMeNav from '../components/AboutMeNav'
-import biopic2021 from '../assets/images/aboutme/biopic2021.jpg'
+import biopic from '../assets/images/servicespage/biopic2020.jpg'
 
 class AboutMe extends React.Component {
   constructor(props) {
@@ -33,70 +32,80 @@ class AboutMe extends React.Component {
           <section id="about" className="main">
             <div className="spotlight">
               <div className="content">
-                <header className="major">
+                <header className="major custom">
                   <h2>About Me</h2>
                 </header>
-                <p>
-                  My expertise is in: 
+                <span className="imageAboutMe">
+                  <img src={biopic} alt="Bio Picture" />
+                </span>
+                <p className="centeredText">
                   <br />
-                  <strong>Identifying & Developing Talent </strong>
-                  <br />
-                  <strong>Advising & Influencing Action</strong> 
-                  <br />
-                  <strong>ACQUISITION</strong>
-                  <br />
-                  <br />
-                  Basically, I know what sells and I know how to sell it. 
-                  <br />
-                  <br />
-                  BUT… I
-                  don’t actually sell anything. I crack codes, find solutions,
-                  and I’m passionate about it. I show people what they’ve been
-                  missing in almost any field. I’ve been a (an): 
+                  &#10036; <strong>
+                    {' '}
+                    Identifying & Developing Talent
+                  </strong>{' '}
+                  &#8608;
+                  <strong> Advising & Influencing Action </strong> &#8608;
+                  <strong> ACQUISITION </strong> &#10036;
                   <br />
                   <br />
-                  <strong>Casting Director</strong> for Film/TV……… <strong>Marketing & Brand Manager</strong> for a Global Tech Firm……… a Working <strong>Actor</strong>…… <strong>Advisor</strong> for CEOs ………High School
-                  <strong>Economics Teacher</strong>………Touring <strong>Singer</strong> ……… International
-                  <strong>Recruiter/Talent Acquisition Lead</strong>………Worldwide <strong>Resume Writer</strong>
-                  ……… <strong>Acting Coach</strong> to the Stars……… A<strong>
-                    CT, SAT, GRE, & ESL
-                    Instructor
-                  </strong>………<strong>Regional Operations Manager</strong> for a Global Tech
-                  Firm………<strong>Singing Teacher</strong> for Off-Broadway actors……… Corporate
-                  <strong>Voice, Speech, & Accent Trainer</strong>………<strong>Grant Writer</strong>………Film/TV
-                  <strong>Writer/Director/Producer</strong>……… <strong>Yoga Teacher</strong> in the inner
-                  city………University <strong>Policy & Procedure Research Advisor</strong>……… 
+                  Basically, I know what sells and I know how to sell it.
                   <br />
                   <br />
-                  I’m leaving a few things out but in case you’re wondering, I have
-                  probably done it……
+                  BUT… I don’t actually sell anything. I crack codes, find
+                  solutions, and I’m passionate about it. I show people what
+                  they’ve been missing in almost any field. I’ve been a (an):
                   <br />
                   <br />
-                  My passion is in <strong>
-                    <u>
-                      helping
-                      people WIN.
-                    </u> 
-                  </strong>
+                  <strong>Casting Director</strong> for Film/TV………{' '}
+                  <strong>Marketing & Brand Manager</strong> for an
+                  International Trophy Company……… a Working{' '}
+                  <strong>Actor</strong>…… <strong>Advisor</strong> for CEOs
+                  ………Highschool
+                  <strong> Economics Teacher</strong>………Touring{' '}
+                  <strong>Singer</strong> ……… International
+                  <strong>
+                    {' '}
+                    Recruiter/Talent Acquisition
+                  </strong>………Worldwide <strong>Resume Writer</strong>
+                  ……… <strong>Acting Coach</strong> to the Stars………{' '}
+                  <strong>ACT, SAT, GRE, & ESL Instructor</strong>………
+                  <strong>Regional Operations Manager</strong> for a Global Tech
+                  Firm………
+                  <strong>Singing Teacher</strong> for Off-Broadway actors………
+                  Corporate
+                  <strong> Voice, Speech, & Accent Trainer</strong>………
+                  <strong>Grant Writer</strong>………Film/TV
+                  <strong> Writer/Director/Producer</strong>………{' '}
+                  <strong>Yoga Teacher</strong> in the inner city………University{' '}
+                  <strong>Policy & Procedure Research Advisor</strong>………
                   <br />
                   <br />
-                  This includes (but is not limited to): being the
-                  being the best version of themselves. 
+                  I’m leaving a few things out but in case you’re wondering, I
+                  have probably done it……
                   <br />
                   <br />
-                  So, have a look through
-                  my services and let’s do this. 
+                  My passion is in <em>helping people WIN.</em>
                   <br />
                   <br />
-                  <strong>Let ME help you, help YOU WIN.</strong>
+                  This includes (but is not limited to) being the best version
+                  of yourself.
+                  <br />
+                  <br />
+                  So, have a look through my services and let’s do this.
+                  <br />
+                  <br />
+                  <em>Let ME help you, help YOU WIN.</em>
                   <br />
                   <br />
                   (Go ahead, read that 2x!)
+                  <br />
+                  <br />
+                  <p className="font">
+                    <strong>xx Coach Kai</strong>
+                  </p>
                 </p>
               </div>
-              <span className="image">
-                <img src={biopic2021} alt="" />
-              </span>
             </div>
           </section>
         </div>

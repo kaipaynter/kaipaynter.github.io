@@ -1,4 +1,3 @@
-import { Link } from 'gatsby'
 import React from 'react'
 
 const Footer = props => (
@@ -10,7 +9,7 @@ const Footer = props => (
         <dd>Occidental Blvd &bull; Los Angeles, CA 90057 &bull; USA</dd>
         <dt>Email</dt>
         <dd>
-          <a href="info@kaipaynter.com">info@kaipaynter.com</a>
+          <a href="contact@kaipaynter.com">contact@kaipaynter.com</a>
         </dd>
       </dl>
       <ul className="icons">
