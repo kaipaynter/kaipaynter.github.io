@@ -56,7 +56,7 @@ class Index extends React.Component {
           <section id="about-me" className="main">
             <div className="spotlight">
               <div className="content">
-                <header className="major">
+                <header className="major custom">
                   <h2>About Me</h2>
                 </header>
                 <p>
@@ -78,7 +78,7 @@ class Index extends React.Component {
             </div>
           </section>
           <section id="services" className="main special">
-            <header className="major">
+            <header className="major custom">
               <h2>Services</h2>
             </header>
             <ul className="features">
@@ -134,7 +134,6 @@ class Index extends React.Component {
                   <img src={american} alt="" />
                 </span>
                 <h3>General American Accent</h3>
-                <h3>for Self-tapes</h3>
                 <p>
                   With locally made American films and self-taping now the norm,
                   it’s vital to have great American
@@ -154,8 +153,8 @@ class Index extends React.Component {
           </section>
 
           <section id="whats-on" className="main special">
-            <header className="major">
-              <h2>What's on</h2>
+            <header className="major custom">
+              <h2>What's On</h2>
             </header>
             <ul className="features">
               <li>
@@ -192,10 +191,10 @@ class Index extends React.Component {
           </section>
 
           <section id="contact" className="main special">
-            <header className="major">
+            <header className="major custom">
               <h2>Contact</h2>
-              <p>Get in touch with me</p>
             </header>
+            <p>Get in touch with me</p>
             <footer className="major">
               <ul className="actions">
                 <li>
