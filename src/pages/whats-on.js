@@ -78,7 +78,11 @@ class WhatsOn extends React.Component {
                     <strong>@kaipaynteradvisory</strong>
                   </a>
                   <br />
-                  We talk about everything under the sun as it pertains to career, life, work, and most importantly YOU. If you are wondering what it may be like to work with me, this will give you a great idea. I also share tips, tricks, and other fun stuff. See you there!
+                  We talk about everything under the sun as it pertains to
+                  career, life, work, and most importantly YOU. If you are
+                  wondering what it may be like to work with me, this will give
+                  you a great idea. I also share tips, tricks, and other fun
+                  stuff. See you there!
                 </p>
               </div>
             </div>
@@ -126,17 +130,24 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <h3 className="centeredText">Geoff T.</h3>
-                <span className="imageWhatsOn">
-                  <img src={yelp} alt="" />
-                </span>
+                <h3 className="centeredText">Sangeetha G.</h3>
+                <iframe
+                  className="iframe"
+                  title="Sangeetha G"
+                  src="https://www.youtube.com/embed/TCbmidt2p4w"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
                 <p>
-                  <p className="centeredText">Los Angeles, CA</p>
-                  “The fee was nominal and I got back a strong resume that
-                  better illustrates my accomplishments…she was very easy to
-                  work with. We had a call that lasted a bit over an hour and
-                  discussed my past. She then took that information and turned
-                  around a great new resume in a short amount of time…”
+                  <p className="centeredText">
+                    <em>Sydney, Australia</em>
+                  </p>
+                  “Kai really helped me get my vision clear with the next steps
+                  to take towards my career and the best way to go about it. She
+                  worked with me to understand how to improve my portfolio and
+                  how to stand out in being seen and represented the way I want
+                  to be represented.”
                 </p>
 
                 <br />
@@ -245,17 +256,23 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <h3 className="centeredText">Jason S.</h3>
-                <span className="imageWhatsOn">
-                  <img src={yelp} alt="" />
-                </span>
+                <h3 className="centeredText">Annitha K.</h3>
+                <iframe
+                  className="iframe"
+                  title="Annitha K"
+                  src="https://www.youtube.com/embed/_Le1uk3ALyk"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
                 <p>
                   <p className="centeredText">
-                    <em>Decatur, IL</em>
+                    <em>Sydney, Australia</em>
                   </p>
-                  “After years with the same employer, my resume was out of date
-                  & poorly formatted for today's market. Alicia was a pleasure
-                  to work with & did a fantastic job.”
+                  “I love Kai’s teaching methods they make you so excited to be
+                  learning and doing what I love to do. Her energy is so
+                  contagious with every lesson you gain Courage knowing you can
+                  excel at anything because she truly believes in you.”
                 </p>
               </div>
             </div>
