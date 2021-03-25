@@ -4,7 +4,7 @@
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
-@import "../css/typography.css";
+@import '../css/typography.css';
 /* Spotlight */
 
 .spotlight {
@@ -37,13 +37,14 @@
 
     .column {
       float: left;
-        width: 33.33%;
-        padding: 10px;
-      p {
-        float: left;
-        width: 33.33%;
-        padding: 10px;
-      }
+      width: 33%;
+      padding: 10px;
+    }
+
+    .row::after {
+      content: '';
+      clear: both;
+      display: table;
     }
 
     .font {
@@ -52,6 +53,37 @@
       p {
         font-family: PlaylistScript;
         font-size: larger;
+      }
+    }
+
+    .container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+
+      .carousel-control-next,
+      .carousel-control-prev {
+        height: 100px;
+        width: 100px;
+        outline: black;
+        background-size: 100%, 100%;
+        background-image: none;
+        margin-top: 430px;
+        margin-left: -35px;
+      }
+
+      .carousel-control-next:after {
+        content: '>';
+        font-size: 55px;
+        color: red;
+      }
+
+      .carousel-control-prev:after {
+        content: '<';
+        font-size: 55px;
+        color: red;
       }
     }
   }
@@ -63,10 +95,9 @@
     margin: 0 auto;
 
     @include breakpoint(small) {
-
       max-width: 80%;
       height: auto;
-		}
+    }
   }
 
   .image {
@@ -103,28 +134,23 @@
     display: inline-block;
     margin-left: 0em;
     padding: 0em;
-    //margin-right: 0em;
     padding-left: 0em;
     border-radius: 100%;
-    //border: solid 1px;
 
     img {
       display: block;
       border-radius: 100%;
       width: 22em;
-      
     }
 
     @include breakpoint(small) {
-
-			& img {
-				width: 18em;
-			}
-		}
+      & img {
+        width: 18em;
+      }
+    }
   }
 
   .imageWhatsOn {
-    //display: inline-block;
     margin-left: 0em;
     padding: 0em;
 
@@ -152,7 +178,6 @@
   }
 
   .imageServices {
-    //display: inline-block;
     margin-left: 0em;
     padding: 0em;
 
@@ -166,7 +191,6 @@
   }
 
   .imageServicesExtra {
-    //display: inline-block;
     margin-left: 0em;
     padding: 0em;
 
@@ -174,6 +198,23 @@
       display: block;
       border: solid 1px;
       max-width: 100%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .imageServicesIcons {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0em;
+    max-width: 60%;
+    display: block;
+
+    img {
+      display: block;
+      border: solid 1px;
+      max-width: 10%;
       height: auto;
       margin-left: auto;
       margin-right: auto;
