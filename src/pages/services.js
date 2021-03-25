@@ -279,6 +279,8 @@ class Services extends React.Component {
                     knowledge of the industry and reveals the necessary steps to
                     success.
                   </strong>
+                  <br />
+                  Click the image for further details.
                 </p>
                 <p className="centeredText">
                   <strong>Date</strong>: Enrollment Open Now!
