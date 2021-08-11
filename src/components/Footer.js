@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footer = props => (
   <footer id="footer">
-    <section>
+    {/* <section>
       <h2>Los Angeles</h2>
       <dl className="alt">
         <dt>Address</dt>
@@ -57,7 +57,7 @@ const Footer = props => (
     </section>
     <p className="copyright">
       &copy; 2021. Design: <a href="https://html5up.net">HTML5 UP</a>.
-    </p>
+    </p> */}
   </footer>
 )
 
