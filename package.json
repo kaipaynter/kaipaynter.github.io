@@ -3,7 +3,7 @@
   "description": "Kai Paynter's website",
   "version": "1.0.0",
   "author": "Boipelo Mawasha",
-  "homepage": "https://kaipaynter.github.io/",
+  "homepage": "https://kaipaynter.com",
   "dependencies": {
     "gatsby": "^2.19.32",
     "gatsby-plugin-client-side-redirect": "^1.1.0",
