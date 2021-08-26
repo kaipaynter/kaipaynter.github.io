@@ -16,7 +16,7 @@ const IndexPage = () => (
             frameborder="1"
             scrolling="auto"
             height="700"
-            width="850"
+            width="700"
           >
             <embed src={bio} type="application/pdf" />
           </object>
