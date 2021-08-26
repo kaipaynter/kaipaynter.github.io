@@ -1,25 +1,33 @@
+const config = require('./config');
+
 module.exports = {
+  //pathPrefix: config.pathPrefix,
   siteMetadata: {
-    title: "Kai Paynter Advisory",
-    author: "Boipelo Mawasha",
-    description: "Kai Paynter Advisory"
+    title: config.siteTitle,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
-        start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
-        display: 'minimal-ui',
-        icon: 'src/assets/images/Kai_Paynter_3D_JPEG.jpg', // This path is relative to the root of the site.
+        name: config.manifestName,
+        short_name: config.manifestShortName,
+        start_url: config.manifestStartUrl,
+        background_color: config.manifestBackgroundColor,
+        theme_color: config.manifestThemeColor,
+        display: config.manifestDisplay,
+        icon: config.manifestIcon, // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
-    'gatsby-plugin-client-side-redirect'
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/assets/images/Gallery`
+      }
+    },
   ],
-}
+};
