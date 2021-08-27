@@ -23,9 +23,6 @@ export default function Footer() {
         </section>
         <ul className="copyright">
           <li>&copy; Kai Paynter. All rights reserved</li>
-          <li>
-            Design: <a href="http://html5up.net">HTML5 UP</a>
-          </li>
         </ul>
       </div>
     </footer>
