@@ -7,14 +7,13 @@ import instagram from '../assets/images/socials/instagram.jpg'
 import twitter from '../assets/images/socials/twitter.jpg'
 import vimeo from '../assets/images/socials/vimeo.jpg'
 
-
 const IndexPage = () => (
   <Layout>
     <div id="main">
       <div className="inner">
         {/* <h1>Socials</h1> */}
 
-        <p className="center">Click on an icon to see my latest work!</p>
+        <p className="center">Click an icon and see what I’m up to!</p>
 
         <p className="center">
           <ul className="icons">
