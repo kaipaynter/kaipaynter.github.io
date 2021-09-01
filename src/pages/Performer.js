@@ -8,7 +8,6 @@ const IndexPage = () => (
   <Layout>
     <div id="main">
       <div className="inner">
-
         <p className="center">
           <object
             data={bio}
@@ -22,24 +21,7 @@ const IndexPage = () => (
           </object>
         </p>
 
-       <br />
-
         <p className="center iframe-container">
-          <iframe
-            title="VO"
-            src="https://player.vimeo.com/video/591916308?h=cef5137802"
-            width="640"
-            height="960"
-            frameborder="0"
-            allow="autoplay; fullscreen; picture-in-picture"
-            loading="lazy"
-            allowfullscreen
-          ></iframe>
-        </p>
-
-        <br />
-
-        <p className="center">
           <iframe
             title="Disney Showcase"
             src="https://player.vimeo.com/video/589826181?h=da06cbe8cb"
@@ -52,14 +34,25 @@ const IndexPage = () => (
           ></iframe>
         </p>
 
-        <br />
-
-        <p className="center">
+        <p className="center iframe-container">
           <iframe
             title="Singing"
-            src="https://player.vimeo.com/video/239924322?h=f0a0036470"
+            src="https://player.vimeo.com/video/595768151?h=a3ef938589"
             width="640"
             height="964"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            loading="lazy"
+            allowfullscreen
+          ></iframe>
+        </p>
+
+        <p className="center iframe-container">
+          <iframe
+            title="VO"
+            src="https://player.vimeo.com/video/591916308?h=cef5137802"
+            width="640"
+            height="960"
             frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture"
             loading="lazy"
