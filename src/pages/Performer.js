@@ -14,12 +14,13 @@ const IndexPage = () => (
             type="application/pdf"
             frameborder="1"
             scrolling="auto"
-            height="600"
+            height="650"
             width="700"
           >
             <embed src={bio} type="application/pdf" />
           </object>
-
+        </p>
+        <p className="center">
           <iframe
             title="Disney Showcase"
             src="https://player.vimeo.com/video/589826181?h=da06cbe8cb"
