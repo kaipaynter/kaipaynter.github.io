@@ -14,14 +14,12 @@ const IndexPage = () => (
             type="application/pdf"
             frameborder="1"
             scrolling="auto"
-            height="700"
+            height="600"
             width="700"
           >
             <embed src={bio} type="application/pdf" />
           </object>
-        </p>
 
-        <p className="center iframe-container">
           <iframe
             title="Disney Showcase"
             src="https://player.vimeo.com/video/589826181?h=da06cbe8cb"
@@ -32,14 +30,12 @@ const IndexPage = () => (
             loading="lazy"
             allowfullscreen
           ></iframe>
-        </p>
 
-        <p className="center iframe-container">
           <iframe
             title="Singing"
             src="https://player.vimeo.com/video/595768151?h=a3ef938589"
             width="640"
-            height="964"
+            height="450"
             frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture"
             loading="lazy"
@@ -47,7 +43,7 @@ const IndexPage = () => (
           ></iframe>
         </p>
 
-        <p className="center iframe-container">
+        <p className="center">
           <iframe
             title="VO"
             src="https://player.vimeo.com/video/591916308?h=cef5137802"
