@@ -41,9 +41,7 @@ const IndexPage = () => (
             loading="lazy"
             allowfullscreen
           ></iframe>
-        </p>
 
-        <p className="center">
           <iframe
             title="VO"
             src="https://player.vimeo.com/video/591916308?h=cef5137802"
