@@ -7,3 +7,5 @@
 If an urgent query needs to be made, please contact us at info@kaipaynter.com
 
 Thank you
+
+This is an external edit
