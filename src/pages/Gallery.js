@@ -1,6 +1,7 @@
 import React from 'react'
 import SimpleReactLightbox, { SRLWrapper } from 'simple-react-lightbox'
 import { StaticImage } from 'gatsby-plugin-image'
+import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
 import '../assets/css/gallery.css'
@@ -19,6 +20,15 @@ import imageL from '../assets/images/Gallery/imageL.jpg' */
 
 const GalleryPage = () => (
   <Layout>
+    <Helmet>
+      <title>Kai Paynter Gallery - A Hollywood Black Female Actress</title>
+      <meta
+        content="Gallery"
+        description="Kai Paynter Gallery - See the showcase of photos - a black female Hollywood actress, a famous black female singer &#38; from the black comedians of New York"
+      />
+      <link rel="canonical" href="https://kaipaynter.com/gallery" />
+    </Helmet>
+
     <div id="main">
       <div className="inner">
         {/* <h1>Gallery</h1> */}
@@ -48,8 +58,8 @@ const GalleryPage = () => (
                   placeholder="blurred"
                 />
               </figure>
-              <figure className="wave">.
-
+              <figure className="wave">
+                .
                 <StaticImage
                   src="../assets/images/Gallery/imageC.jpg"
                   alt=""

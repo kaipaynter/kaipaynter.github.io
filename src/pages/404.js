@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-const IndexPage = () => (
+const ErrorPage = () => (
   <Layout>
     <div id="main">
       <div className="inner">
@@ -17,4 +17,4 @@ const IndexPage = () => (
   </Layout>
 );
 
-export default IndexPage;
+export default ErrorPage;

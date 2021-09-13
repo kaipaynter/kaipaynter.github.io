@@ -1,5 +1,6 @@
 module.exports = {
   siteTitle: 'Kai Paynter', // <title>
+  siteDescription: 'Kai Paynter - Famous black female singer and black female actress',
   manifestName: 'Kai Paynter',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',

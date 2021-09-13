@@ -1,11 +1,21 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
 
 import bio from '../../static/Kai_Paynter.pdf'
 
-const IndexPage = () => (
+const PerformerPage = () => (
   <Layout>
+    <Helmet>
+      <title>Kai Paynter - A Famous Black Female Singer &#38; Much More!</title>
+      <meta
+        content="Performer"
+        description="Kai Paynter Performer - See my performance showcase as a famous black female singer, Hollywood black female actress, and from the black comedians from New York, &#38; more."
+      />
+      <link rel="canonical" href="https://kaipaynter.com/performer" />
+    </Helmet>
+
     <div id="main">
       <div className="inner">
         <p className="center">
@@ -59,4 +69,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default PerformerPage
