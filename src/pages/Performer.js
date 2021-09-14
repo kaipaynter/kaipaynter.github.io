@@ -26,6 +26,7 @@ const PerformerPage = () => (
             scrolling="auto"
             height="650"
             width="700"
+            alt="Kai Paynter bio"
           >
             <embed src={bio} type="application/pdf" />
           </object>
@@ -37,6 +38,7 @@ const PerformerPage = () => (
             width="640"
             height="360"
             frameborder="0"
+            alt="Disney Showcase"
             allow="autoplay; fullscreen; picture-in-picture"
             loading="lazy"
             allowfullscreen
@@ -44,6 +46,7 @@ const PerformerPage = () => (
 
           <iframe
             title="Singing"
+            alt="Singing"
             src="https://player.vimeo.com/video/595768151?h=a3ef938589"
             width="640"
             height="450"
@@ -55,6 +58,7 @@ const PerformerPage = () => (
 
           <iframe
             title="VO"
+            alt="VO"
             src="https://player.vimeo.com/video/591916308?h=cef5137802"
             width="640"
             height="960"

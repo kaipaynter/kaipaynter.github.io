@@ -5,8 +5,11 @@ module.exports = {
   siteMetadata: {
     title: config.siteTitle,
     description: config.siteDescription,
+    siteUrl: `https://kaipaynter.com`,
   },
   plugins: [
+    'gatsby-plugin-sitemap',
+    'gatsby-plugin-robots-txt',
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,

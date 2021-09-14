@@ -1,12 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { StaticImage } from 'gatsby-plugin-image'
 
 import Layout from '../components/Layout'
-
-import facebook from '../assets/images/socials/facebook.jpg'
-import instagram from '../assets/images/socials/instagram.jpg'
-import twitter from '../assets/images/socials/twitter.jpg'
-import vimeo from '../assets/images/socials/vimeo.jpg'
 
 const SocialsPage = () => (
   <Layout>
@@ -23,7 +19,6 @@ const SocialsPage = () => (
 
     <div id="main">
       <div className="inner">
-        {/* <h1>Socials</h1> */}
 
         <p className="center">Click an icon and see what I’m up to!</p>
 
@@ -35,7 +30,12 @@ const SocialsPage = () => (
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={facebook} alt="" />
+                <StaticImage
+                  src="../assets/images/socials/facebook.jpg"
+                  alt="Facebook"
+                  placeholder="blurred"
+                  width="100px"
+                />
               </a>
             </li>
             <li>
@@ -44,7 +44,12 @@ const SocialsPage = () => (
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={instagram} alt="" />
+                <StaticImage
+                  src="../assets/images/socials/instagram.jpg"
+                  alt="Instagram"
+                  placeholder="blurred"
+                  width="100px"
+                />
               </a>
             </li>
             <li>
@@ -53,7 +58,12 @@ const SocialsPage = () => (
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={twitter} alt="" />
+                <StaticImage
+                  src="../assets/images/socials/twitter.jpg"
+                  alt="Twitter"
+                  placeholder="blurred"
+                  width="100px"
+                />
               </a>
             </li>
             <li>
@@ -62,7 +72,12 @@ const SocialsPage = () => (
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={vimeo} alt="" />
+                <StaticImage
+                  src="../assets/images/socials/vimeo.jpg"
+                  alt="Vimeo"
+                  placeholder="blurred"
+                  width="100px"
+                />
               </a>
             </li>
           </ul>
