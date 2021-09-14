@@ -13,7 +13,7 @@ const PerformerPage = () => (
         content="Performer"
         description="Kai Paynter Performer - See my performance showcase as a famous black female singer, Hollywood black female actress, and from the black comedians from New York, &#38; more."
       />
-      <link rel="canonical" href="https://kaipaynter.com/performer" />
+      <link rel="canonical" href="https://kaipaynter.com/Performer" />
     </Helmet>
 
     <div id="main">

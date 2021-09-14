@@ -14,7 +14,7 @@ const SocialsPage = () => (
         content="Socials"
         description="Kai Paynter Socials - Follow me on my social media accounts and see my performances as a famous black female singer, a black female Hollywood actress &#38; tons more."
       />
-      <link rel="canonical" href="https://kaipaynter.com/socials" />
+      <link rel="canonical" href="https://kaipaynter.com/Socials" />
     </Helmet>
 
     <div id="main">

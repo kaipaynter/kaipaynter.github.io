@@ -10,7 +10,7 @@ const ContactPage = () => (
         content="Contact"
         description="Contact me - Kai Paynter. Get in touch with me today to take advantage of my skills as a Hollywood black female actress, a famous black female singer, or my other services!"
       />
-      <link rel="canonical" href="https://kaipaynter.com/contact" />
+      <link rel="canonical" href="https://kaipaynter.com/Contact" />
     </Helmet>
 
     <div id="main">

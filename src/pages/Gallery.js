@@ -14,7 +14,7 @@ const GalleryPage = () => (
         content="Gallery"
         description="Kai Paynter Gallery - See the showcase of photos - a black female Hollywood actress, a famous black female singer &#38; from the black comedians of New York"
       />
-      <link rel="canonical" href="https://kaipaynter.com/gallery" />
+      <link rel="canonical" href="https://kaipaynter.com/Gallery" />
     </Helmet>
 
     <div id="main">
