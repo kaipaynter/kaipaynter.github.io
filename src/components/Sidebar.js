@@ -11,7 +11,7 @@ export default function SideBar({ sections = [] }) {
         <div className="inner">
           <Link to="/" className="logo">
             <span className="large">
-              <img src={logo} alt="" />
+              <img src={logo} alt="Logo" />
             </span>
           </Link>
           <TopNav onMenuClick={() => toggleHeader(!headerOpen)} />

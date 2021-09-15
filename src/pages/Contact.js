@@ -1,20 +1,30 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import Helmet from 'react-helmet'
 
-const IndexPage = () => (
+const ContactPage = () => (
   <Layout>
+    <Helmet>
+      <title>Contact Kai Paynter - A Famous Black Female Singer</title>
+      <meta
+        content="Contact"
+        description="Contact me - Kai Paynter. Get in touch with me today to take advantage of my skills as a Hollywood black female actress, a famous black female singer, or my other services!"
+      />
+      <link rel="canonical" href="https://kaipaynter.com/Contact" />
+    </Helmet>
+
     <div id="main">
       <div className="inner">
         {/* <h1>Contact</h1> */}
 
         <p>
-          <strong>Helen Pandos Management</strong>: 
+          <strong>Helen Pandos Management</strong>:
           <br />
           c/o Belinda Blight
           <br />
           2/69 Reservoir Street
           <br />
-          Surry Hills, NSW 
+          Surry Hills, NSW
           <br />
           Australia, 2010
           <br />
@@ -36,4 +46,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default ContactPage
