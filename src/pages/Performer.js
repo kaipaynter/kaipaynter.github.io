@@ -32,7 +32,7 @@ const PerformerPage = () => (
           </object>
         </p>
         <p className="center">
-          <iframe
+          {/* <iframe
             title="Disney Showcase"
             src="https://player.vimeo.com/video/589826181?h=da06cbe8cb"
             width="640"
@@ -42,7 +42,7 @@ const PerformerPage = () => (
             allow="autoplay; fullscreen; picture-in-picture"
             loading="lazy"
             allowfullscreen
-          ></iframe>
+          ></iframe> */}
 
           <iframe
             title="Singing"
