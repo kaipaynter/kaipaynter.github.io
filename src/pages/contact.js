@@ -1,76 +1,49 @@
 import React from 'react'
-import { Waypoint } from 'react-waypoint'
-import Layout from '../components/layout'
-import ContactNav from '../components/ContactNav'
-import { Helmet } from 'react-helmet'
+import Layout from '../components/Layout'
+import Helmet from 'react-helmet'
 
-class Contact extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      stickyNav: false,
-    }
-  }
+const ContactPage = () => (
+  <Layout>
+    <Helmet>
+      <title>Contact Kai Paynter - A Famous Black Female Singer</title>
+      <meta
+        content="Contact"
+        description="Contact me - Kai Paynter. Get in touch with me today to take advantage of my skills as a Hollywood black female actress, a famous black female singer, or my other services!"
+      />
+      <link rel="canonical" href="https://kaipaynter.com/Contact" />
+    </Helmet>
 
-  _handleWaypointEnter = () => {
-    this.setState(() => ({ stickyNav: false }))
-  }
+    <div id="main">
+      <div className="inner">
+        {/* <h1>Contact</h1> */}
 
-  _handleWaypointLeave = () => {
-    this.setState(() => ({ stickyNav: true }))
-  }
-  render() {
-    return (
-      <Layout>
-        <Waypoint
-          onEnter={this._handleWaypointEnter}
-          onLeave={this._handleWaypointLeave}
-        ></Waypoint>
-        <ContactNav sticky={this.state.stickyNav} />
+        <p>
+          <strong>Helen Pandos Management</strong>:
+          <br />
+          c/o Belinda Blight
+          <br />
+          2/69 Reservoir Street
+          <br />
+          Surry Hills, NSW
+          <br />
+          Australia, 2010
+          <br />
+          Tel: +61 (0) 2 9212 4242
+        </p>
+        <p>
+          <strong>Brady, Brannon & Rich Agency</strong>
+          <br />
+          c/o BBR Commerical Rep
+          <br />
+          5700 Wilshire Blvd, Suite 275
+          <br />
+          Los Angeles, CA 90036
+          <br />
+          Tel: +1 323 852 9559
+        </p>
+      </div>
+    </div>
+  </Layout>
+)
 
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>Contact</title>
-          <meta name='description' content='How to get in touch' />
-          <link rel="canonical" href="https://kaipaynter.com/contact/index.html" />
-        </Helmet>
-
-        <div id="main">
-          <section id="contact" className="main">
-            <div className="spotlight">
-              <div className="content">
-                <header className="major custom">
-                  <h2>Contact Me</h2>
-                </header>
-                <form method="post" action="/contact/">
-                  <label>
-                    Name
-                    <input type="text" name="name" id="name" />
-                  </label>
-                  <label>
-                    Email
-                    <input type="email" name="email" id="email" />
-                  </label>
-                  <label>
-                    Subject
-                    <input type="text" name="subject" id="subject" />
-                  </label>
-                  <label>
-                    Message
-                    <textarea name="message" id="message" rows="5" />
-                  </label>
-                  <button type="reset" className="button special">
-                    Send
-                  </button>
-                  <input type="reset" value="Clear" />
-                </form>
-              </div>
-            </div>
-          </section>
-        </div>
-      </Layout>
-    )
-  }
-}
-
-export default Contact
+export default ContactPage

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 
 const Footer = props => (
@@ -61,3 +62,35 @@ const Footer = props => (
 )
 
 export default Footer
+=======
+import React from 'react';
+import ContactForm from './ContactForm';
+import config from '../../config';
+export default function Footer() {
+  return (
+    <footer id="footer">
+      <div className="inner">
+        <ContactForm />
+        <section>
+          <h2>Follow</h2>
+          <ul className="icons">
+            {config.socialLinks.map(social => {
+              const { icon, name, url } = social;
+              return (
+                <li key={url}>
+                  <a href={url} className={`icon ${icon}`} target="_blank" rel="noreferrer">
+                    <span className="label">{name}</span>
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+        <ul className="copyright">
+          <li>&copy; Kai Paynter. All rights reserved</li>
+        </ul>
+      </div>
+    </footer>
+  );
+}
+>>>>>>> 95535575a54a57d68c4ec151df60a80f4f204a7b
