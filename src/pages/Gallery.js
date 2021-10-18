@@ -9,10 +9,11 @@ import '../assets/css/gallery.css'
 const GalleryPage = () => (
   <Layout>
     <Helmet>
-      <title>Kai Paynter Gallery - A Hollywood Black Female Actress</title>
+      <title>Kai Paynter Gallery - A Black Hollywood Actress!</title>
       <meta
         content="Gallery"
-        description="Kai Paynter Gallery - See the showcase of photos - a black female Hollywood actress, a famous black female singer &#38; from the black comedians of New York"
+        description="Kai Paynter Gallery - See the showcase of photos - a Black Hollywood Actress, a 
+        famous Black Singer &#38; Black Female Comedian, &#38; more. "
       />
       <link rel="canonical" href="https://kaipaynter.com/Gallery" />
     </Helmet>

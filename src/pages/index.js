@@ -7,10 +7,10 @@ import { Link } from 'gatsby'
 const IndexPage = () => (
   <Layout>
     <Helmet>
-      <title>Kai Paynter - A Famous Black Female Singer &#38; Much More!</title>
+      <title>Kai Paynter - A Black Hollywood Actress &#38; Much More!</title>
       <meta
         content="Home page"
-        description="Kai Paynter - A famous black female simger &#38; Hollywood black female actress, I am all of them! Also see Paynter Performance and BearTiger Productions website to know more about my work"
+        description="Kai Paynter - A Black Hollywood Actress &#38; Hollywood Producer, I am all of them! Also see Paynter Performance and BearTiger Productions website to know more about my work."
       />
       <link rel="canonical" href="https://kaipaynter.com" />
     </Helmet>
