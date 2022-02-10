@@ -58,11 +58,23 @@ const PerformerPage = () => (
           ></iframe>
 
           <iframe
+            title="Animation Reel"
+            alt="Animation Reel"
+            src="https://player.vimeo.com/video/675804641?h=f721eb48ee"
+            width="640"
+            height="360"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            loading="lazy"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
             title="VO"
             alt="VO"
             src="https://player.vimeo.com/video/591916308?h=cef5137802"
             width="640"
-            height="960"
+            height="450"
             frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture"
             loading="lazy"
