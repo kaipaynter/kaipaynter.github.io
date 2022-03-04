@@ -25,21 +25,21 @@ const GalleryPage = () => (
             <SRLWrapper>
               <figure className="wave">
                 <StaticImage
-                  src="../assets/images/Gallery/imageJ.jpg"
+                  src="../assets/images/Gallery/Kai_Primary_199.jpg"
                   alt=""
                   placeholder="blurred"
                 />
               </figure>
               <figure className="wave">
                 <StaticImage
-                  src="../assets/images/Gallery/imageG.jpg"
+                  src="../assets/images/Gallery/Kai_324.jpg"
                   alt=""
                   placeholder="blurred"
                 />
               </figure>
               <figure className="wave">
                 <StaticImage
-                  src="../assets/images/Gallery/imageD.jpg"
+                  src="../assets/images/Gallery/Kai_122.jpg"
                   alt=""
                   placeholder="blurred"
                 />
@@ -47,63 +47,14 @@ const GalleryPage = () => (
               <figure className="wave">
                 .
                 <StaticImage
-                  src="../assets/images/Gallery/imageC.jpg"
+                  src="../assets/images/Gallery/Kai_212.jpeg"
                   alt=""
                   placeholder="blurred"
                 />
-              </figure>
-              <figure className="wave">
-                <StaticImage
-                  src="../assets/images/Gallery/imageH.jpg"
-                  alt=""
-                  placeholder="blurred"
-                />
-              </figure>
-              <figure className="wave">
-                <StaticImage
-                  src="../assets/images/Gallery/imageB.jpg"
-                  alt=""
-                  placeholder="blurred"
-                />
-              </figure>
-              <figure className="wave">
-                <StaticImage
-                  src="../assets/images/Gallery/imageF.jpg"
-                  alt=""
-                  placeholder="blurred"
-                />
-              </figure>
-              <figure className="wave">
-                <StaticImage
-                  src="../assets/images/Gallery/imageI.jpg"
-                  alt=""
-                  placeholder="blurred"
-                />
-              </figure>
-              <figure className="wave">
-                <StaticImage
-                  src="../assets/images/Gallery/imageK.jpg"
-                  alt=""
-                  placeholder="blurred"
-                />
-              </figure>
+              </figure>              
               <figure className="wave">
                 <StaticImage
                   src="../assets/images/Gallery/imageA.jpg"
-                  alt=""
-                  placeholder="blurred"
-                />
-              </figure>
-              <figure className="wave">
-                <StaticImage
-                  src="../assets/images/Gallery/imageL.jpg"
-                  alt=""
-                  placeholder="blurred"
-                />
-              </figure>
-              <figure className="wave">
-                <StaticImage
-                  src="../assets/images/Gallery/imageE.jpg"
                   alt=""
                   placeholder="blurred"
                 />
