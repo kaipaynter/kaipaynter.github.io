@@ -34,7 +34,7 @@ const IndexPage = () => (
           <article className="style2">
             <span className="image">
               <StaticImage
-                src="../assets/images/tiles/coachTile_2.jpg"
+                src="../assets/images/tiles/coachTile_3.jpg"
                 alt="Coach Tile"
                 placeholder="blurred"
               />
@@ -51,7 +51,7 @@ const IndexPage = () => (
           <article className="style3">
             <span className="image">
               <StaticImage
-                src="../assets/images/tiles/creativeTile_2.jpeg"
+                src="../assets/images/tiles/creativeTile_3.jpeg"
                 alt="Creative Tile"
                 placeholder="blurred"
               />
@@ -94,7 +94,7 @@ const IndexPage = () => (
           <article className="style6">
             <span className="image">
               <StaticImage
-                src="../assets/images/tiles/contactTile_2.jpeg"
+                src="../assets/images/tiles/contactTile_3.jpeg"
                 alt="Contact Tile"
                 placeholder="blurred"
               />
