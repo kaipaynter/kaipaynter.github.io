@@ -8,11 +8,11 @@ const SocialsPage = () => (
   <Layout>
     <Helmet>
       <title>
-        Kai Paynter Socials - A Hollywood Black Female Actress &#38; Much More!
+        Kai Paynter Socials - A Hollywood Producer &#38; Much More!
       </title>
       <meta
         content="Socials"
-        description="Kai Paynter Socials - Follow me on my social media accounts and see my performances as a famous black female singer, a black female Hollywood actress &#38; tons more."
+        description="Kai Paynter Socials - Follow me on my social media accounts and see my work as a Hollywood Producer, a Famous Black Singer, &#38; tons more! "
       />
       <link rel="canonical" href="https://kaipaynter.com/Socials" />
     </Helmet>

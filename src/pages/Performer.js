@@ -8,10 +8,11 @@ import bio from '../../static/Kai_Paynter.pdf'
 const PerformerPage = () => (
   <Layout>
     <Helmet>
-      <title>Kai Paynter - A Famous Black Female Singer &#38; Much More!</title>
+      <title>Kai Paynter - A Famous Black Singer &#38; Much More!</title>
       <meta
         content="Performer"
-        description="Kai Paynter Performer - See my performance showcase as a famous black female singer, Hollywood black female actress, and from the black comedians from New York, &#38; more."
+        description="Kai Paynter Performer - Checkout my performance showcase as a Famous Black 
+        Singer, Black Hollywood Actress, Black Female Comedian, &#38; more. "
       />
       <link rel="canonical" href="https://kaipaynter.com/Performer" />
     </Helmet>
@@ -32,17 +33,29 @@ const PerformerPage = () => (
           </object>
         </p>
         <p className="center">
-          {/* <iframe
-            title="Disney Showcase"
+          <iframe
+            title="Blacklight Audition"
+            src="https://player.vimeo.com/video/458007570?h=605981d0a9"
+            width="640"
+            height="450"
+            frameborder="0"
+            alt="Blacklight Audition"
+            allow="autoplay; fullscreen; picture-in-picture"
+            loading="lazy"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            title="Disney Showcase Callback &amp; Wolf Like Me Audition"
             src="https://player.vimeo.com/video/589826181?h=da06cbe8cb"
             width="640"
             height="360"
             frameborder="0"
-            alt="Disney Showcase"
+            alt="Disney Showcase Callback &amp; Wolf Like Me Audition"
             allow="autoplay; fullscreen; picture-in-picture"
             loading="lazy"
             allowfullscreen
-          ></iframe> */}
+          ></iframe>
 
           <iframe
             title="Singing"
@@ -57,11 +70,23 @@ const PerformerPage = () => (
           ></iframe>
 
           <iframe
+            title="Animation Reel"
+            alt="Animation Reel"
+            src="https://player.vimeo.com/video/675804641?h=f721eb48ee"
+            width="640"
+            height="360"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            loading="lazy"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
             title="VO"
             alt="VO"
             src="https://player.vimeo.com/video/591916308?h=cef5137802"
             width="640"
-            height="960"
+            height="450"
             frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture"
             loading="lazy"

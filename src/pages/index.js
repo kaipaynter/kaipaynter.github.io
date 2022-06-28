@@ -223,10 +223,10 @@ import { Link } from 'gatsby'
 const IndexPage = () => (
   <Layout>
     <Helmet>
-      <title>Kai Paynter - A Famous Black Female Singer &#38; Much More!</title>
+      <title>Kai Paynter - A Black Hollywood Actress &#38; Much More!</title>
       <meta
         content="Home page"
-        description="Kai Paynter - A famous black female simger &#38; Hollywood black female actress, I am all of them! Also see Paynter Performance and BearTiger Productions website to know more about my work"
+        description="Kai Paynter - A Black Hollywood Actress &#38; Hollywood Producer, I am all of them! Also see Paynter Performance and BearTiger Productions website to know more about my work."
       />
       <link rel="canonical" href="https://kaipaynter.com" />
     </Helmet>
@@ -250,7 +250,7 @@ const IndexPage = () => (
           <article className="style2">
             <span className="image">
               <StaticImage
-                src="../assets/images/tiles/coachTile.jpeg"
+                src="../assets/images/tiles/coachTile_3.jpg"
                 alt="Coach Tile"
                 placeholder="blurred"
               />
@@ -267,7 +267,7 @@ const IndexPage = () => (
           <article className="style3">
             <span className="image">
               <StaticImage
-                src="../assets/images/tiles/creativeTile.jpeg"
+                src="../assets/images/tiles/creativeTile_3.jpeg"
                 alt="Creative Tile"
                 placeholder="blurred"
               />
@@ -284,7 +284,7 @@ const IndexPage = () => (
           <article className="style4">
             <span className="image">
               <StaticImage
-                src="../assets/images/tiles/socialsTile.jpeg"
+                src="../assets/images/tiles/socialsTile_2.jpeg"
                 alt="Socials Tile"
                 placeholder="blurred"
               />
@@ -310,7 +310,7 @@ const IndexPage = () => (
           <article className="style6">
             <span className="image">
               <StaticImage
-                src="../assets/images/tiles/contactTile.jpeg"
+                src="../assets/images/tiles/contactTile_3.jpeg"
                 alt="Contact Tile"
                 placeholder="blurred"
               />

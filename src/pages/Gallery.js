@@ -9,10 +9,11 @@ import '../assets/css/gallery.css'
 const GalleryPage = () => (
   <Layout>
     <Helmet>
-      <title>Kai Paynter Gallery - A Hollywood Black Female Actress</title>
+      <title>Kai Paynter Gallery - A Black Hollywood Actress!</title>
       <meta
         content="Gallery"
-        description="Kai Paynter Gallery - See the showcase of photos - a black female Hollywood actress, a famous black female singer &#38; from the black comedians of New York"
+        description="Kai Paynter Gallery - See the showcase of photos - a Black Hollywood Actress, a 
+        famous Black Singer &#38; Black Female Comedian, &#38; more. "
       />
       <link rel="canonical" href="https://kaipaynter.com/Gallery" />
     </Helmet>
@@ -24,21 +25,21 @@ const GalleryPage = () => (
             <SRLWrapper>
               <figure className="wave">
                 <StaticImage
-                  src="../assets/images/Gallery/imageJ.jpg"
+                  src="../assets/images/Gallery/Kai_Primary_199.jpg"
                   alt=""
                   placeholder="blurred"
                 />
               </figure>
               <figure className="wave">
                 <StaticImage
-                  src="../assets/images/Gallery/imageG.jpg"
+                  src="../assets/images/Gallery/Kai_324.jpg"
                   alt=""
                   placeholder="blurred"
                 />
               </figure>
               <figure className="wave">
                 <StaticImage
-                  src="../assets/images/Gallery/imageD.jpg"
+                  src="../assets/images/Gallery/Kai_122.jpg"
                   alt=""
                   placeholder="blurred"
                 />
@@ -46,63 +47,14 @@ const GalleryPage = () => (
               <figure className="wave">
                 .
                 <StaticImage
-                  src="../assets/images/Gallery/imageC.jpg"
+                  src="../assets/images/Gallery/Kai_212.jpeg"
                   alt=""
                   placeholder="blurred"
                 />
-              </figure>
-              <figure className="wave">
-                <StaticImage
-                  src="../assets/images/Gallery/imageH.jpg"
-                  alt=""
-                  placeholder="blurred"
-                />
-              </figure>
-              <figure className="wave">
-                <StaticImage
-                  src="../assets/images/Gallery/imageB.jpg"
-                  alt=""
-                  placeholder="blurred"
-                />
-              </figure>
-              <figure className="wave">
-                <StaticImage
-                  src="../assets/images/Gallery/imageF.jpg"
-                  alt=""
-                  placeholder="blurred"
-                />
-              </figure>
-              <figure className="wave">
-                <StaticImage
-                  src="../assets/images/Gallery/imageI.jpg"
-                  alt=""
-                  placeholder="blurred"
-                />
-              </figure>
-              <figure className="wave">
-                <StaticImage
-                  src="../assets/images/Gallery/imageK.jpg"
-                  alt=""
-                  placeholder="blurred"
-                />
-              </figure>
+              </figure>              
               <figure className="wave">
                 <StaticImage
                   src="../assets/images/Gallery/imageA.jpg"
-                  alt=""
-                  placeholder="blurred"
-                />
-              </figure>
-              <figure className="wave">
-                <StaticImage
-                  src="../assets/images/Gallery/imageL.jpg"
-                  alt=""
-                  placeholder="blurred"
-                />
-              </figure>
-              <figure className="wave">
-                <StaticImage
-                  src="../assets/images/Gallery/imageE.jpg"
                   alt=""
                   placeholder="blurred"
                 />
