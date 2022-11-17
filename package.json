@@ -41,7 +41,7 @@
     "gatsby-plugin-sitemap": "^6.0.0",
     "gatsby-source-filesystem": "^4.7.0",
     "gatsby-transformer-sharp": "^5.0.0",
-    "node-polyfill-webpack-plugin": "^1.1.4",
+    "node-polyfill-webpack-plugin": "^2.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
 >>>>>>> b3b60f54bcff7573f7ff041c6156553cfdd4a64c
