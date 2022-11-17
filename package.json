@@ -14,6 +14,7 @@
   "dependencies": {
     "gatsby": "^5.0.1",
     "gatsby-background-image": "^1.6.0",
+<<<<<<< HEAD
     "gatsby-plugin-google-gtag": "^5.0.0",
     "gatsby-plugin-image": "^3.0.0",
     "gatsby-plugin-manifest": "^5.0.0",
@@ -28,6 +29,22 @@
     "node-polyfill-webpack-plugin": "^2.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+=======
+    "gatsby-plugin-google-gtag": "^4.7.0",
+    "gatsby-plugin-image": "^2.7.0",
+    "gatsby-plugin-manifest": "^4.7.0",
+    "gatsby-plugin-offline": "^5.7.0",
+    "gatsby-plugin-react-helmet": "^5.7.0",
+    "gatsby-plugin-robots-txt": "^1.7.0",
+    "gatsby-plugin-sass": "^6.0.0",
+    "gatsby-plugin-sharp": "^4.7.0",
+    "gatsby-plugin-sitemap": "^6.0.0",
+    "gatsby-source-filesystem": "^4.7.0",
+    "gatsby-transformer-sharp": "^5.0.0",
+    "node-polyfill-webpack-plugin": "^1.1.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+>>>>>>> b3b60f54bcff7573f7ff041c6156553cfdd4a64c
     "react-helmet": "^6.1.0",
     "react-images": "^1.2.0-beta.7",
     "react-scrollspy": "^3.4.2",
