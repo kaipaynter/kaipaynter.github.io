@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://kaipaynter.com/sitemap/sitemap-index.xml
+Sitemap: https://kaipaynter.com/sitemap-index.xml
 Host: https://kaipaynter.com
