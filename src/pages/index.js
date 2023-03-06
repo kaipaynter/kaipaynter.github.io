@@ -44,7 +44,7 @@ const IndexPage = () => (
               target="_blank"
               rel="noreferrer"
             >
-              <h2>Coach</h2>
+              <h2>Facilitator</h2>
               <div className="content"></div>
             </Link>
           </article>
