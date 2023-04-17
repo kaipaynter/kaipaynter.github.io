@@ -40,7 +40,7 @@ const SocialsPage = () => (
             </li>
             <li>
               <a
-                href="https://instagram.com/kai_paynter"
+                href="https://www.instagram.com/kai.paynter/"
                 target="_blank"
                 rel="noreferrer"
               >
