@@ -25,7 +25,7 @@ const GalleryPage = () => (
             <SRLWrapper>
               <figure className="wave">
                 <StaticImage
-                  src="../assets/images/Gallery/Kai_Primary_199.jpg"
+                  src="../assets/images/Gallery/kai_Primary_2.jpeg"
                   alt=""
                   placeholder="blurred"
                 />
