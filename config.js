@@ -16,7 +16,7 @@ module.exports = {
     {
       icon: 'fa-instagram',
       name: 'Instagram',
-      url: 'https://instagram.com/kai_paynter',
+      url: 'https://www.instagram.com/kai.paynter/',
     },
     {
       icon: 'fa-twitter',
