@@ -52,13 +52,6 @@ const GalleryPage = () => (
                   placeholder="blurred"
                 />
               </figure>              
-              <figure className="wave">
-                <StaticImage
-                  src="../assets/images/Gallery/imageA.jpg"
-                  alt=""
-                  placeholder="blurred"
-                />
-              </figure>
             </SRLWrapper>
           </SimpleReactLightbox>
         </div>
