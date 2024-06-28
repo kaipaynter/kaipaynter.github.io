@@ -45,7 +45,6 @@ const GalleryPage = () => (
                 />
               </figure>
               <figure className="wave">
-                .
                 <StaticImage
                   src="../assets/images/Gallery/Kai_212.jpeg"
                   alt=""
@@ -53,7 +52,6 @@ const GalleryPage = () => (
                 />
               </figure>
               <figure className="wave">
-                .
                 <StaticImage
                   src="../assets/images/Gallery/1.jpg"
                   alt=""
@@ -61,7 +59,6 @@ const GalleryPage = () => (
                 />
               </figure>
               <figure className="wave">
-                .
                 <StaticImage
                   src="../assets/images/Gallery/9_BD.jpg"
                   alt=""
@@ -69,7 +66,6 @@ const GalleryPage = () => (
                 />
               </figure>
               <figure className="wave">
-                .
                 <StaticImage
                   src="../assets/images/Gallery/11.2.jpg"
                   alt=""
@@ -77,7 +73,6 @@ const GalleryPage = () => (
                 />
               </figure>
               <figure className="wave">
-                .
                 <StaticImage
                   src="../assets/images/Gallery/25.2.jpg"
                   alt=""
