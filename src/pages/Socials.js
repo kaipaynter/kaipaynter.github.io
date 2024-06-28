@@ -12,7 +12,7 @@ const SocialsPage = () => (
       </title>
       <meta
         content="Socials"
-        description="Kai Paynter Socials - Follow me on my social media accounts and see my work as a Hollywood Producer, a Famous Black Singer, &#38; tons more! "
+        description="Kai Paynter Socials - Follow me on my social media accounts and see my work as a Hollywood Producer, a Black Singer, &#38; tons more! "
       />
       <link rel="canonical" href="https://kaipaynter.com/Socials" />
     </Helmet>
