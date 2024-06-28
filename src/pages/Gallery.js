@@ -13,7 +13,7 @@ const GalleryPage = () => (
       <meta
         content="Gallery"
         description="Kai Paynter Gallery - See the showcase of photos - a Black Hollywood Actress, a 
-        famous Black Singer &#38; Black Female Comedian, &#38; more. "
+        Black Singer &#38; Black Female Comedian, &#38; more. "
       />
       <link rel="canonical" href="https://kaipaynter.com/Gallery" />
     </Helmet>
@@ -45,9 +45,36 @@ const GalleryPage = () => (
                 />
               </figure>
               <figure className="wave">
-                .
                 <StaticImage
                   src="../assets/images/Gallery/Kai_212.jpeg"
+                  alt=""
+                  placeholder="blurred"
+                />
+              </figure>
+              <figure className="wave">
+                <StaticImage
+                  src="../assets/images/Gallery/1.jpg"
+                  alt=""
+                  placeholder="blurred"
+                />
+              </figure>
+              <figure className="wave">
+                <StaticImage
+                  src="../assets/images/Gallery/9_BD.jpg"
+                  alt=""
+                  placeholder="blurred"
+                />
+              </figure>
+              <figure className="wave">
+                <StaticImage
+                  src="../assets/images/Gallery/11.2.jpg"
+                  alt=""
+                  placeholder="blurred"
+                />
+              </figure>
+              <figure className="wave">
+                <StaticImage
+                  src="../assets/images/Gallery/25.2.jpg"
                   alt=""
                   placeholder="blurred"
                 />
