@@ -8,7 +8,7 @@ import bio from '../../static/Kai_Paynter.pdf'
 const PerformerPage = () => (
   <Layout>
     <Helmet>
-      <title>Kai Paynter - A Famous Black Singer &#38; Much More!</title>
+      <title>Welcome. I help heart-centered folk realize their dreams.</title>
       <meta
         content="Performer"
         description="Kai Paynter Performer - Checkout my performance showcase as a Black 
@@ -44,7 +44,8 @@ const PerformerPage = () => (
             loading="lazy"
             allowfullscreen
           ></iframe>
-
+        </p>
+        <p className="center">
           <iframe
             title="Disney Showcase Callback &amp; Wolf Like Me Audition"
             src="https://player.vimeo.com/video/589826181?h=da06cbe8cb"
@@ -56,7 +57,8 @@ const PerformerPage = () => (
             loading="lazy"
             allowfullscreen
           ></iframe>
-
+        </p>
+        <p className="center">
           <iframe
             title="Singing"
             alt="Singing"
@@ -68,7 +70,8 @@ const PerformerPage = () => (
             loading="lazy"
             allowfullscreen
           ></iframe>
-
+        </p>
+        <p className="center">
           <iframe
             title="Animation Reel"
             alt="Animation Reel"
@@ -80,7 +83,8 @@ const PerformerPage = () => (
             loading="lazy"
             allowfullscreen
           ></iframe>
-
+        </p>
+        <p className="center">
           <iframe
             title="VO"
             alt="VO"
