@@ -8,7 +8,7 @@ import bio from '../../static/Kai_Paynter.pdf'
 const PerformerPage = () => (
   <Layout>
     <Helmet>
-      <title>Kai Paynter - A Famous Black Singer &#38; Much More!</title>
+      <title>Kai Paynter - A Black Singer &#38; Much More!</title>
       <meta
         content="Performer"
         description="Kai Paynter Performer - Checkout my performance showcase as a Black 
