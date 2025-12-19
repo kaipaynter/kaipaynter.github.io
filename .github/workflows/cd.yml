@@ -14,24 +14,35 @@ jobs:
     
     steps:
       - name: Checkout source
-        uses: actions/checkout@v4 # Upgrade to v4
+        uses: actions/checkout@v4
 
       - name: Setup node
-        uses: actions/setup-node@v4 # Upgrade to v4
+        uses: actions/setup-node@v4
         with:
           node-version: "20.16.0"
           cache: "npm"
           cache-dependency-path: "**/package-lock.json"
 
+      # Added Gatsby caching to speed up the production build
+      - name: Cache Gatsby Folders
+        uses: actions/cache@v4
+        with:
+          path: |
+            .cache
+            public
+          key: ${{ runner.os }}-gatsby-build-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-gatsby-build-
+
       - name: Install
-        # Standardizes the environment to match your lockfile exactly
         run: npm ci --legacy-peer-deps
 
       - name: Build
         env:
           PREFIX_PATHS: 'true'
-        # 'gatsby clean' is now handled inside 'npm run build' or called explicitly
-        run: npx gatsby clean && npm run build
+          GATSBY_CPU_COUNT: '2'
+        # Removed 'npx gatsby clean' to utilize the cache
+        run: npm run build
 
       - name: Deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v3
