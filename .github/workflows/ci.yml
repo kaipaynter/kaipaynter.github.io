@@ -1,36 +1,34 @@
+# .github/workflows/ci.yml
 name: CI
-
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
-
+# Run this workflow on any push to any branch.
+on: push
+# A workflow can have one or more jobs.
 jobs:
+  # This workflow has just a single job named `ci`.
   ci:
+    # Run this job on a Github hosted action runner with the latest version of ubuntu installed.
+    permissions:
+      contents: read
     runs-on: ubuntu-latest
-    
-    # This sets the default directory for all 'run' steps
-    defaults:
-      run:
-        working-directory: ./my-website
-
+    # A job has one or more steps.
     steps:
+      # Checkout the project source files to the Github Action runner.
+      # This is roughly equivalent to running `git checkout`.
       - name: Checkout source
-        uses: actions/checkout@v4
-
+        uses: actions/checkout@v2
+      # Install the version of Node.js used by project.
       - name: Setup node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
           node-version: "20.16.0"
           cache: "npm"
-          # This tells the cache where to find your lockfile
-          cache-dependency-path: "my-website/package-lock.json"
-
+          cache-dependency-path: package-lock.json  # Explicit dependency file for caching
+      # Install package dependencies as defined in package.json file in root of project.
       - name: Install dependencies
-        # 'npm ci' is used for a clean, consistent install from the lockfile
-        run: npm ci
-
+        run: npm install
+      # Run `gatsby build`.
       - name: Build project
-        # Includes the clean step to prevent cache corruption
-        run: npx gatsby clean && npm run build
+        run: npm run build
+      # Run the Jest unit tests and generate a coverage report.
+      # - name: test
+       # run: npm test -- --coverage
