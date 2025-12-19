@@ -26,7 +26,7 @@ jobs:
           cache-dependency-path: "**/package-lock.json"
       # Install package dependencies as defined in package.json file in root of project.
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --legacy-peer-deps
       # Run `gatsby build`.
       - name: Build with Gatsby
         env:

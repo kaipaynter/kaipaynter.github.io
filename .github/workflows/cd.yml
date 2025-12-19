@@ -25,7 +25,7 @@ jobs:
 
       - name: Install
         # Standardizes the environment to match your lockfile exactly
-        run: npm ci
+        run: npm ci --legacy-peer-deps
 
       - name: Build
         env:
