@@ -1,0 +1,40 @@
+name: CD
+on:
+  workflow_run:
+    workflows: ["CI"]
+    branches: [main]
+    types: [completed]
+
+jobs:
+  deploy:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4 # Upgrade to v4
+
+      - name: Setup node
+        uses: actions/setup-node@v4 # Upgrade to v4
+        with:
+          node-version: "20.16.0"
+          cache: "npm"
+          cache-dependency-path: "**/package-lock.json"
+
+      - name: Install
+        # Standardizes the environment to match your lockfile exactly
+        run: npm ci --legacy-peer-deps
+
+      - name: Build
+        env:
+          PREFIX_PATHS: 'true'
+        # 'gatsby clean' is now handled inside 'npm run build' or called explicitly
+        run: npx gatsby clean && npm run build
+
+      - name: Deploy to Github Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
