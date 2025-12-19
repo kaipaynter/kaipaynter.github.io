@@ -28,7 +28,7 @@ jobs:
         run: npm install
       # Run `gatsby build`.
       - name: Build project
-        run: npm run build
+        run: npx gatsby clean && npm run build
       # Run the Jest unit tests and generate a coverage report.
       # - name: test
        # run: npm test -- --coverage
