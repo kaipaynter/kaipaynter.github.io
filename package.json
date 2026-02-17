@@ -54,7 +54,7 @@
     "deploy:full": "npm run branchSetup && npm run deploy && npm run reset && npm run branchCleanup"
   },
   "devDependencies": {
-    "ajv": "^8.17.1",
+    "ajv": "^8.18.0",
     "gh-pages": "^6.0.0",
     "prettier": "^3.3.3",
     "rimraf": "^6.0.1",
