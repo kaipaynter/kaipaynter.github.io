@@ -3,6 +3,7 @@
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
+@use 'sass:color';
 
 /* Footer */
 
@@ -37,7 +38,7 @@
 				margin-top: 5em;
 				list-style: none;
 				font-size: 0.8em;
-				color: transparentize(_palette(fg), 0.5);
+				color: color.scale(_palette(fg), $alpha: -50%);
 
 				a {
 					color: inherit;
@@ -45,7 +46,7 @@
 
 				li {
 					display: inline-block;
-					border-left: solid 1px transparentize(_palette(fg), 0.85);
+					border-left: solid 1px color.scale(_palette(fg), $alpha: -85%);
 					line-height: 1;
 					padding: 0 0 0 1em;
 					margin: 0 0 0 1em;

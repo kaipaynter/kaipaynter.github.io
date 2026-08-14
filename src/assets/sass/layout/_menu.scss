@@ -3,6 +3,7 @@
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
+@use 'sass:color';
 
 /* Menu */
 
@@ -49,7 +50,7 @@
 
       > li {
         padding: 0;
-        border-top: solid 1px transparentize(_palette(bg), 0.85);
+        border-top: solid 1px color.scale(_palette(bg), $alpha: -85%);
 
         a {
           display: block;
