@@ -48,7 +48,14 @@ module.exports = {
       },
     },
     'gatsby-plugin-image',
-    'gatsby-plugin-sass',
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        sassOptions: {
+          silenceDeprecations: ['legacy-js-api', 'import', 'global-builtin', 'if-function'],
+        },
+      },
+    },
     'gatsby-plugin-offline',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',

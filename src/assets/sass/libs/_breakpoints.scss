@@ -1,7 +1,9 @@
 // breakpoints.scss v1.0 | @ajlkn | MIT licensed */
 
 @use "sass:string";
+@use "sass:list";
 @use "sass:map";
+@use "sass:meta";
 
 // Vars.
 
@@ -89,10 +91,10 @@
 				$a: map.get($breakpoints, $breakpoint);
 
 				// Range.
-					@if (type-of($a) == 'list') {
+					@if (meta.type-of($a) == 'list') {
 
-						$x: nth($a, 1);
-						$y: nth($a, 2);
+						$x: list.nth($a, 1);
+						$y: list.nth($a, 2);
 
 						// Max only.
 							@if ($x == null) {

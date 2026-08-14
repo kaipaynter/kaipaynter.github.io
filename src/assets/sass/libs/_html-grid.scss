@@ -2,6 +2,8 @@
 
 // Mixins.
 @use 'sass:math';
+@use 'sass:list';
+@use 'sass:meta';
 
 	/// Initializes the current element as an HTML grid.
 	/// @param {mixed} $gutters Gutters (either a single number to set both column/row gutters, or a list to set them individually).
@@ -16,7 +18,7 @@
 			// Suffixes.
 				$suffixes: null;
 
-				@if (type-of($suffix) == 'list') {
+				@if (meta.type-of($suffix) == 'list') {
 					$suffixes: $suffix;
 				}
 				@else {
@@ -27,10 +29,10 @@
 				$guttersCols: null;
 				$guttersRows: null;
 
-				@if (type-of($gutters) == 'list') {
+				@if (meta.type-of($gutters) == 'list') {
 
-					$guttersCols: nth($gutters, 1);
-					$guttersRows: nth($gutters, 2);
+					$guttersCols: list.nth($gutters, 1);
+					$guttersRows: list.nth($gutters, 2);
 
 				}
 				@else {

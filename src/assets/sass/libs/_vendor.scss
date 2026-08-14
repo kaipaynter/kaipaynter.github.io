@@ -1,6 +1,8 @@
 // vendor.scss v1.0 | @ajlkn | MIT licensed */
 
 @use "sass:string";
+@use "sass:list";
+@use "sass:meta";
 
 // Vars.
 
@@ -260,7 +262,7 @@
 
 		$result: null;
 
-		@if type-of($index) != number {
+		@if meta.type-of($index) != number {
 			@warn "$index: #{quote($index)} is not a number for `remove-nth`.";
 		}
 		@else if $index == 0 {
@@ -272,12 +274,14 @@
 		@else {
 
 			$result: ();
-			$index: if($index < 0, length($list) + $index + 1, $index);
+			@if $index < 0 {
+				$index: length($list) + $index + 1;
+			}
 
 			@for $i from 1 through length($list) {
 
 				@if $i != $index {
-					$result: append($result, nth($list, $i));
+					$result: list.append($result, list.nth($list, $i));
 				}
 
 			}
@@ -314,7 +318,7 @@
 	@function str-replace-all($strings, $search, $replace: '') {
 
 		@each $string in $strings {
-			$strings: set-nth($strings, index($strings, $string), str-replace($string, $search, $replace));
+			$strings: list.set-nth($strings, list.index($strings, $string), str-replace($string, $search, $replace));
 		}
 
 		@return $strings;
@@ -340,7 +344,7 @@
 	@mixin vendor($property, $value) {
 
 		// Determine if property should expand.
-			$expandProperty: index($vendor-properties, $property);
+			$expandProperty: list.index($vendor-properties, $property);
 
 		// Determine if value should expand (and if so, add '-prefix-' placeholder).
 			$expandValue: false;
@@ -349,7 +353,7 @@
 				@each $y in $vendor-values {
 					@if $y == string.slice($x, 1, str-length($y)) {
 
-						$value: set-nth($value, index($value, $x), '-prefix-' + $x);
+						$value: list.set-nth($value, list.index($value, $x), '-prefix-' + $x);
 						$expandValue: true;
 
 					}
