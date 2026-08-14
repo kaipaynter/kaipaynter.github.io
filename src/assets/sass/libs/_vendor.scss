@@ -1,5 +1,7 @@
 // vendor.scss v1.0 | @ajlkn | MIT licensed */
 
+@use "sass:string";
+
 // Vars.
 
 	/// Vendor prefixes.
@@ -297,7 +299,7 @@
 		$index: str-index($string, $search);
 
 		@if $index {
-			@return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+			@return string.slice($string, 1, $index - 1) + $replace + str-replace(string.slice($string, $index + str-length($search)), $search, $replace);
 		}
 
 		@return $string;
@@ -345,7 +347,7 @@
 
 			@each $x in $value {
 				@each $y in $vendor-values {
-					@if $y == str-slice($x, 1, str-length($y)) {
+					@if $y == string.slice($x, 1, str-length($y)) {
 
 						$value: set-nth($value, index($value, $x), '-prefix-' + $x);
 						$expandValue: true;
